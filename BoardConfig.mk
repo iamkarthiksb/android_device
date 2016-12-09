@@ -78,6 +78,7 @@ BOARD_GLOBAL_CFLAGS += -DNO_SECURE_DISCARD
 # Crypto
 TARGET_HW_DISK_ENCRYPTION := true
 TW_INCLUDE_CRYPTO := true
+TARGET_CRYPTFS_HW_PATH := device/lenovo/p1a42/cryptfs_hw
 
 # TWRP
 TW_THEME := portrait_hdpi
