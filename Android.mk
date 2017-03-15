@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-ifneq ($(filter osprey,$(TARGET_DEVICE)),)
+ifneq ($(filter p1a42,$(TARGET_DEVICE)),)
 
 LOCAL_PATH := $(call my-dir)
 
