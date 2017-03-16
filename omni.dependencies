@@ -1,8 +1,8 @@
 [
   {
     "remote":      "github",
-    "repository":  "sultanqasim/android_kernel_motorola_msm8916",
-    "target_path": "kernel/motorola/msm8916",
-    "revision":    "squid_marshmallow"
+    "repository":  "FireLord1/android_kernel_lenovo_p1a42",
+    "target_path": "kernel/lenovo/p1a42",
+    "revision":    "cm-14.1"
   }
 ]
