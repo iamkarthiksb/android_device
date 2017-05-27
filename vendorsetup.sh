@@ -1,1 +1,1 @@
-add_lunch_combo omni_p1a42-userdebug
+add_lunch_combo omni_kuntao-userdebug
