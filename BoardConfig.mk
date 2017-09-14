@@ -74,7 +74,6 @@ BOARD_SUPPRESS_SECURE_ERASE := true
 # Crypto
 TARGET_HW_DISK_ENCRYPTION := true
 TW_INCLUDE_CRYPTO := true
-TARGET_CRYPTFS_HW_PATH := device/lenovo/kuntao/cryptfs_hw
 
 # TWRP
 TARGET_RECOVERY_FSTAB := device/lenovo/kuntao/twrp.fstab
