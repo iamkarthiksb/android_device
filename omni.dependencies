@@ -3,6 +3,6 @@
     "remote":      "github",
     "repository":  "FireLord1/android_kernel_lenovo_msm8953",
     "target_path": "kernel/lenovo/msm8953",
-    "revision":    "cm-14.1"
+    "revision":    "twrp-7.1"
   }
 ]
