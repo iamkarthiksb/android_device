@@ -415,7 +415,6 @@ vendor/lib64/libvendorconn.so
 vendor/lib64/libwqe.so
 
 # Display Color Calibration
--etc/qdcm_calib_data_mipi_mot_cmd_smd_1080p_549.xml
 etc/permissions/com.qti.snapdragon.sdk.display.xml
 -framework/com.qti.snapdragon.sdk.display.jar|bd9898c563fd7a38fd57eb09bdc6eb5c5f4c5fa1
 -vendor/app/colorservice/colorservice.apk|1e6fbfd6030e60182dd2a212c46ecc9851a10e1c
