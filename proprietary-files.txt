@@ -415,8 +415,16 @@ vendor/lib64/libvendorconn.so
 vendor/lib64/libwqe.so
 
 # Display Color Calibration
--vendor/app/colorservice/colorservice.apk|ec71d604220c9e0e1d481f7c66fd3bacdea82331
 -etc/qdcm_calib_data_mipi_mot_cmd_smd_1080p_549.xml
+etc/permissions/com.qti.snapdragon.sdk.display.xml
+-framework/com.qti.snapdragon.sdk.display.jar|bd9898c563fd7a38fd57eb09bdc6eb5c5f4c5fa1
+-vendor/app/colorservice/colorservice.apk|1e6fbfd6030e60182dd2a212c46ecc9851a10e1c
+vendor/lib64/libscalar.so|57ab34121680dbb3d9c4be74a3f26a9210a8dde1
+vendor/lib64/libsd_sdk_display.so|31916490a4dcc644a5e09208c469abee43cf40cf
+vendor/lib64/libsdm-color.so|9906b519ba328b9a10695081459e1dee1bbf46d1
+vendor/lib64/libsdm-diag.so|f9ca7943a929d9f60521f6d1099360d8bb6440e6
+vendor/lib64/libsdm-disp-apis.so|7a92054da305786ba58451e265e856b01c3ef18d
+vendor/lib64/libsdmextension.so|cfa177edc25c06e1e4d702315a3725229630c81f
 
 # DPM
 bin/dpmd
@@ -586,7 +594,6 @@ vendor/lib/libllvm-qgl.so
 vendor/lib/libmmQSM.so
 vendor/lib/libOpenCL.so
 vendor/lib/libscale.so
-vendor/lib/libscalar.so
 vendor/lib/libmm-disp-apis.so
 vendor/lib/libmm-qdcm.so
 vendor/lib64/hw/vulkan.msm8953.so
@@ -615,7 +622,6 @@ vendor/lib64/libllvm-qgl.so
 vendor/lib64/libmmQSM.so
 vendor/lib64/libOpenCL.so
 vendor/lib64/libscale.so
-vendor/lib64/libscalar.so
 vendor/lib64/libmm-disp-apis.so
 vendor/lib64/libmm-qdcm.so
 
@@ -792,8 +798,6 @@ vendor/lib/libperipheral_client.so
 vendor/lib64/libperipheral_client.so
 
 # Postprocessing
--framework/com.qti.snapdragon.sdk.display.jar|e6387246d96376fd832fdcf14b65e149b6333bb2
-etc/permissions/com.qti.snapdragon.sdk.display.xml
 vendor/bin/mm-pp-dpps
 vendor/lib/libdisp-aba.so
 vendor/lib64/libdisp-aba.so
