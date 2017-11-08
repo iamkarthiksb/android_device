@@ -17,6 +17,10 @@
 /dev/validity(/.*)?							        u:object_r:fingerprintd_data_file:s0
 /data/validity(/.*)?								u:object_r:fingerprintd_data_file:s0
 
+# Gestures
+/sys/board_properties/tpd_suspend_status            u:object_r:sysfs_tpd:s0
+/sys/board_properties/tpd_glove_status              u:object_r:sysfs_tpd:s0
+
 # Partitions
 /dev/block/bootdevice/by-name/cache                    				u:object_r:cache_block_device:s0
 
